@@ -1,5 +1,7 @@
 # BarberStyle
 
+![BarberStyle](image.png)
+
 Aplicativo de reserva de horários para barbearia e estética. Projeto do **Aluno 12**, SENAI Desenvolvimento de Sistemas, **Aula 16: Do Protótipo ao Produto Profissional**.
 
 ## O aplicativo
@@ -86,6 +88,6 @@ Confira o ícone no launcher, a abertura do aplicativo, a escolha de serviço e 
 
 ## Estado desta entrega
 
-Código React/TypeScript, estilos, imagens fonte, configuração Capacitor, testes da agenda e workflow foram criados. A instalação NPM foi bloqueada pela rede do ambiente de criação, portanto **o build web, a geração nativa e a APK ainda precisam ser executados em um ambiente com acesso ao NPM ou no GitHub Actions**. A pasta `android/` será criada pelo comando documentado ou pelo workflow. Nenhuma execução bem-sucedida no GitHub ou em aparelho físico foi verificada nesta entrega.
+Código React/TypeScript, estilos, imagens fonte, configuração Capacitor, testes da agenda e workflow foram criados. Na verificação posterior à instalação das dependências, os quatro testes e a checagem TypeScript passaram. A pasta `android/` foi criada e o gerador produziu 74 recursos nativos. **O build web local está bloqueado por uma restrição de criação de processos (`spawn EPERM`); a compilação da APK ainda precisa ser confirmada no GitHub Actions.** A etapa de SDK foi corrigida para instalar apenas `platform-tools`, sem solicitar o pacote removido `tools`. Nenhuma APK bem-sucedida ou execução em aparelho físico foi verificada.
 
 Entregue no Classroom o link do repositório com este README, os assets e o workflow. Não envie apenas o arquivo APK.
