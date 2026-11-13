@@ -2,8 +2,6 @@
 
 ![BarberStyle](image.png)
 
-Aplicativo de reserva de horários para barbearia e estética. Projeto do **Aluno 12**, SENAI Desenvolvimento de Sistemas, **Aula 16: Do Protótipo ao Produto Profissional**.
-
 ## O aplicativo
 
 - Seleção de corte, barba, combo ou design de sobrancelhas.
